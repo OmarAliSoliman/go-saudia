@@ -1,0 +1,319 @@
+@font-face {
+  font-family: coonr;
+  src: url("../fonts/CoconNextArabic-Regular.ttf");
+}
+@font-face {
+  font-family: coonl;
+  src: url("../fonts/alfont_com_AlFont_com_cocon-next-arabic.ttf");
+}
+@font-face {
+  font-family: coonb;
+  src: url("../fonts/CoconNextArabic-Bold.ttf");
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  direction: rtl;
+  font-family: coonr;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.header-wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.bg-header {
+  background-position: center;
+  background-size: cover;
+  min-height: 97vh;
+  height: auto;
+  padding: 30px 0 122px 0;
+  position: relative;
+}
+.bg-header:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to left, rgba(247, 127, 0, 0.62), rgba(238, 124, 3, 0.42), rgba(0, 53, 77, 0.5));
+}
+.bg-header .header-img {
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  left: 0%;
+  width: 50%;
+}
+.bg-header .logo {
+  position: relative;
+  z-index: 6;
+}
+.bg-header .logo img {
+  width: 200px;
+}
+.bg-header .content {
+  position: relative;
+  z-index: 6;
+}
+.bg-header .content h5, .bg-header .content h6, .bg-header .content p {
+  color: #fff;
+}
+.bg-header .content h5 {
+  font-size: 3rem;
+  font-size: bold;
+}
+.bg-header .content h6 {
+  font-size: 2rem;
+  margin-top: 98px;
+  line-height: 55px;
+}
+.bg-header .content p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+.bg-header .download-app {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+}
+.bg-header .download-app a {
+  display: block;
+  margin-left: 20px;
+}
+.bg-header .download-app a img {
+  width: 198px;
+}
+
+.about-content .thcontent {
+  padding-top: 50px;
+}
+.about-content .thcontent h5 {
+  font-size: 2.1rem;
+  margin-bottom: 30px;
+}
+.about-content .thcontent p {
+  margin-bottom: 30px;
+  line-height: 25px;
+  font-size: 1rem;
+}
+
+.features {
+  padding: 33px 0 44px 0;
+  background-color: #F5F5F5;
+  margin-top: 41px;
+  position: relative;
+  overflow: hidden;
+}
+.features .section-header {
+  height: 100%;
+}
+.features .section-header h5 {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.features .pizza-img {
+  position: absolute;
+  top: 50%;
+  right: -100px;
+  transform: translate(0, -50%);
+}
+.features .pizza-img img {
+  width: 300px;
+}
+
+.features-list li {
+  margin-bottom: 40px;
+}
+.features-list li h5 {
+  font-size: 1.2rem;
+  font-family: coonb;
+  margin-bottom: 10px;
+}
+.features-list li:first-child {
+  margin-right: 120px;
+}
+.features-list li:nth-child(2) {
+  margin-right: 50px;
+}
+.features-list li:nth-child(4) {
+  margin-right: 50px;
+}
+.features-list li:last-child {
+  margin-right: 120px;
+}
+
+.screens {
+  background-position: center;
+  background-size: cover;
+  padding: 31px;
+  position: relative;
+}
+.screens:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.73), rgba(0, 53, 77, 0.94));
+}
+.screens .section-header {
+  position: relative;
+  text-align: center;
+  z-index: 4;
+}
+.screens .section-header h5 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #00354D;
+}
+.screens img {
+  display: block;
+}
+.screens .wrapper {
+  position: relative;
+  z-index: 4;
+}
+.screens .wrapper .screens-slider-wrapper {
+  width: 80%;
+}
+.screens .wrapper .logo-screens {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(0, -50%);
+}
+.screens .wrapper .logo-screens img {
+  margin: auto;
+  width: 200px;
+}
+
+.download-our-app {
+  padding: 50px 0;
+}
+.download-our-app .section-header {
+  position: relative;
+  text-align: center;
+  z-index: 4;
+}
+.download-our-app .section-header h5 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #00354D;
+}
+.download-our-app .download-our-app-live-preview img {
+  width: 60%;
+}
+.download-our-app .download-our-app-live-preview-app {
+  margin-top: 250px;
+  position: relative;
+}
+.download-our-app .download-our-app-live-preview-app .after-img {
+  position: absolute;
+  top: 50%;
+  right: -90px;
+  width: 100%;
+  transform: translate(0%, -50%);
+  z-index: -1;
+}
+.download-our-app .download-our-app-live-preview-app h5 {
+  font-size: 4rem;
+  color: #F77F00;
+  font-weight: coonb;
+  margin-bottom: 15px;
+}
+.download-our-app .download-our-app-live-preview-app p {
+  font-size: 1.4rem;
+}
+.download-our-app .download-our-app-live-preview-app p span {
+  color: #FC7E10;
+}
+.download-our-app .download-our-app-live-preview-app .down-app {
+  display: flex;
+  align-items: center;
+}
+.download-our-app .download-our-app-live-preview-app .down-app img {
+  width: 140px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1024px) {
+  .features-list li:first-child {
+    margin-bottom: 20px;
+  }
+  .features .pizza-img img {
+    opacity: 0.4;
+  }
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 14px;
+  }
+  .bg-header .header-content {
+    width: 90%;
+  }
+  .about-content .about-img img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  .features-list li:first-child, .features-list li:nth-child(2), .features-list li:nth-child(4), .features-list li:last-child {
+    margin-right: 0;
+  }
+  .features .feature-img {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .download-our-app .download-our-app-live-preview img {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+  .download-our-app .download-our-app-live-preview-app {
+    text-align: center;
+  }
+  .download-our-app .download-our-app-live-preview-app .after-img {
+    right: 0;
+  }
+  .download-our-app .download-our-app-live-preview-app .down-app {
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+  .bg-header .content h6 {
+    line-height: normal;
+    margin-top: 30px;
+  }
+  .download-our-app .download-our-app-live-preview-app {
+    margin-top: 50px;
+  }
+  .about-content .about-img img {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
