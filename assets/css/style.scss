@@ -185,7 +185,7 @@ img {
 .screens{
   background-position: center;
   background-size: cover;
-  padding: 31px;
+  padding: 31px 0;
   position: relative;
   &:after {
     position: absolute;
@@ -245,6 +245,10 @@ img {
   .download-our-app-live-preview{
     img{
       width: 60%;
+    }
+    iframe{
+      height: 750px;
+      margin: auto;
     }
 
   }
@@ -334,6 +338,9 @@ img {
   }
   .download-our-app .download-our-app-live-preview-app .down-app{
     justify-content: center;
+  }
+  .download-our-app-live-preview{
+    text-align: center;
   }
 }
 
