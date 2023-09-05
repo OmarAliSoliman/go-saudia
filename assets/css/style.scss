@@ -252,6 +252,14 @@ img {
     }
 
   }
+  .screens img {
+    margin: auto;
+    cursor: zoom-in;
+    max-width: 260px;
+    max-height: auto;
+  }
+
+  
 
   .download-our-app-live-preview-app{
     margin-top: 250px;
@@ -357,5 +365,14 @@ img {
   }
   .about-content .about-img img{
     width: 90%;
+  }
+  .screens .wrapper .screens-slider-wrapper{
+    width: 100%;
+  }
+  .screens .wrapper .logo-screens{
+    position: unset;
+    text-align: center;
+    transform: none !important;
+    margin: 0 auto;
   }
 }

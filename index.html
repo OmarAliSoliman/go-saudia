@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./assets/css/aos.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>تطبيق Go Saudi</title>
 </head>
@@ -14,7 +17,7 @@
 <body>
 
 
-  <div class="header-wrapper">
+  <div class="header-wrapper"  data-aos="fade-up">
     <div class="bg-header" style="background-image: url('./assets/images/header.png')">
       <div class="header-img">
         <img src="./assets/images/headerimg3.png" alt="">
@@ -52,7 +55,7 @@
   </div>
 
 
-  <div class="about-content">
+  <div class="about-content"  data-aos="fade-up">
     <div class="container">
       <div class="row">
         <div class="col-md-5 col-lg-5">
@@ -80,7 +83,7 @@
   </div>
 
 
-  <div class="features">
+  <div class="features"  data-aos="fade-up">
 
     <div class="pizza-img">
       <img src="./assets/images/pizzaimg.png" alt="">
@@ -134,13 +137,29 @@
     </div>
   </div>
 
-  <div class="screens" style="background-image: url('./assets/images/scrrens.png')">
+  <div class="screens" style="background-image: url('./assets/images/scrrens.png')"  data-aos="fade-up">
     <div class="section-header">
       <h5>شاشات تطبيق Go Saudi</h5>
     </div>
     <div class="wrapper">
       <div class="screens-slider-wrapper">
-        <img src="./assets/images/sliderscreen.png" alt="">
+        <div class="owl-carousel" dir="ltr">
+          <div class="slider-item">
+            <img src="./assets/images/01.png" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="./assets/images/02.png" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="./assets/images/03.png" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="./assets/images/04.png" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="./assets/images/05.png" alt="">
+          </div>
+        </div>
       </div>
       <div class="">
         <div class="logo-screens">
@@ -152,16 +171,18 @@
 
 
 
-  <div class="download-our-app" style="background-image: url('./assets/images/livepreviewbg.png')">
+  <div class="download-our-app" style="background-image: url('./assets/images/livepreviewbg.png')"  data-aos="fade-up">
     <div class="container">
       <div class="section-header">
         <h5> العرض الحي لتطبيق Go Saudi</h5>
       </div>
-      
+
       <div class="row">
         <div class="col-md-6 col-lg-6">
           <div class="download-our-app-live-preview">
-            <iframe src="https://marvelapp.com/prototype/jg47ch7?emb=1&iosapp=false&frameless=false" width="80%" allowTransparency="true" frameborder="0" style="-webkit-clip-path: inset(2px 2px); clip-path: inset(2px 2px);"></iframe>
+            <iframe src="https://marvelapp.com/prototype/jg47ch7?emb=1&iosapp=false&frameless=false" width="80%"
+              allowTransparency="true" frameborder="0"
+              style="-webkit-clip-path: inset(2px 2px); clip-path: inset(2px 2px);"></iframe>
           </div>
         </div>
         <div class="col-md-6 col-lg-6">
@@ -192,6 +213,8 @@
   <script src="./assets/js/jquery-3.3.1.min.js"></script>
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+  <script src="./assets/js/aos.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 
